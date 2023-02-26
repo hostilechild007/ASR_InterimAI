@@ -1,0 +1,6 @@
+job started at Thu Feb 23 12:28:22 EST 2023
+on compute node p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306 p0306
+Traceback (most recent call last):
+  File "/fs/ess/PAS2400/Patrick/ASR_Group_7/conformer1/test.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

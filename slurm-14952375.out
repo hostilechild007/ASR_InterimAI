@@ -1,0 +1,15 @@
+job started at Thu Feb 23 11:25:43 EST 2023
+on compute node p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307 p0307
+Traceback (most recent call last):
+  File "/fs/ess/PAS2400/Patrick/ASR_Group_7/conformer1/test.py", line 10, in <module>
+    from conformer.model import Conformer
+  File "/fs/ess/PAS2400/Patrick/ASR_Group_7/conformer1/conformer/__init__.py", line 15, in <module>
+    from .model import Conformer
+  File "/fs/ess/PAS2400/Patrick/ASR_Group_7/conformer1/conformer/model.py", line 20, in <module>
+    from .encoder import ConformerEncoder
+  File "/fs/ess/PAS2400/Patrick/ASR_Group_7/conformer1/conformer/encoder.py", line 22, in <module>
+    from .convolution import (
+  File "/fs/ess/PAS2400/Patrick/ASR_Group_7/conformer1/conformer/convolution.py", line 146
+    PointwiseConv1d(in_channels, in_channels, stride=1, padding=0, bias=True),
+    ^
+SyntaxError: invalid syntax
